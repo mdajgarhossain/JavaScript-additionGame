@@ -11,7 +11,7 @@ let result = number1 + number2;
 
 let checkResult = document.querySelector('input[type=text]');
 let value = checkResult.value;
-let btn = document.querySelector('input[type=button][value=check');
+let btn = document.querySelector('input[type=button][value=check]');
 
 btn.onclick = function () {
     value = checkResult.value;
